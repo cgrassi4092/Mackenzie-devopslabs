@@ -1,21 +1,29 @@
 # Linguagem Utilizada para Desenvolver a Aplicação                                                                                                                                                       
 language: python                                                                                                                                                                                         
 
+# Versão do Sistema Operacional
+os:
+    - linux
+
 # Versão que a aplicação suporta.                                                                                                                                                                        
-python:                                                                                                                                                                                                  
-  - "3.7.9"                                                                                                                                                                                              
+python:    
+    - "3.7.9"                                                                                                                                                                                              
+
+# Dist Xenial
+dist: xenial
 
 # Instalação de Módulos que são necessários para a Aplicação.                                                                                                                                            
 install:                                                                                                                                                                                                 
-  - pip install flask
+    - pip install flask
 
 # Defini o script de Teste que deve rodar toda vez que o código for alterado.                                                                                                                            
 script:                                                                                                                                                                                                  
-  - python -m unittest -v test
+    - python -m unittest -v test
 
 # Definir o Deploy no Heroku
 deploy:
   provider: heroku
+  strategy: api
   api_key: $HEROKU_API_KEY
   edge: true 
   app: devopslabs-carlos
