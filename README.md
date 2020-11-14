@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/cgrassi4092/Mackenzie-devopslabs.svg?token=NHcppNnCkjWNY7LQ7QgG&branch=main)](https://travis-ci.com/cgrassi4092/Mackenzie-devopslabs)
 ##  Mackenzie - Laboratório DevOps
 
 Aula DevOps Tools - Professora Gaby
