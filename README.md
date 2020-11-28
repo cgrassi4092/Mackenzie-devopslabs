@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.com/cgrassi4092/Mackenzie-devopslabs.svg?token=NHcppNnCkjWNY7LQ7QgG&branch=main)](https://travis-ci.com/cgrassi4092/Mackenzie-devopslabs)
-[![Quality Gate](https://sonarcloud.io/dashboard?id=cgrassi4092)](https://sonarcloud.io/dashboard?id=cgrassi4092)
+[![Sonar Quality Gate Badge](https://sonarcloud.io/api/project_badges/measure?project=cgrassi4092&metric=alert_status)](https://sonarcloud.io/dashboard?id=cgrassi4092)
 ##  Mackenzie - Laboratório DevOps
 
 Aula DevOps Tools - Professora Gaby
