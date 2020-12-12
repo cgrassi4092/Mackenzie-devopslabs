@@ -33,7 +33,19 @@ jobs:
           organization: cgrassi4092
           token: ${SONAR_TOKEN}
 
-    - stage: Deploy
+    - stage: Deploy Stage 
+      script: skip
+      # Definir o Deploy no Heroku
+      deploy:
+        provider: heroku
+        strategy: api 
+        api_key: $HEROKU_API_KEY
+        edge: true
+        app: devopslabs-carlos-stg
+        on: 
+          branch: main
+
+    - stage: Deploy Prod
       script: skip
       # Definir o Deploy no Heroku
       deploy:
