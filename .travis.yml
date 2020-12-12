@@ -45,6 +45,10 @@ jobs:
         on:
           branch: main
 
+notifications:
+  slack: devopstoolsgrupo:WCUqCQmCjYXKiextfk13cPha
+
+
 
 # Sem Build Stages
 # Instalação de Módulos que são necessários para a Aplicação.                                                                                                                                            
