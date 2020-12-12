@@ -46,8 +46,8 @@ jobs:
           branch: main
 
 notifications:
-  slack: devopstoolsgrupo:WCUqCQmCjYXKiextfk13cPha
-
+  slack:
+    secure: BGxBUTHoweKXMdnR2qZLfbVCXJcbe5/Sizswf9YRnj+zDNeN0R397waE5soVVlltanNDTSjuiEyR8iUxyittFbjv/phCRZs8ZKhWT30rMNadz2mogYSTjKLUTraYExqLTMWvfe5tSBjP/qpHM3UQjktsr7ABPUIGUdYnOFc22jmicYFFzblDz7GgGWJH5irjlm3AqRS7FcbtZn+3w95vuesd4+Cu26kgG6arKcYiljaEhAopZ63MYtGCSfNx3D8154bF6BceU6CH8lPIHUv+mKXcyZ2fybGZP+BtdmFAefXm5Gt2dhe9D3/EMQCQ3aIeHZkYGbsTpt+Jqq93EjK1N3G0eTnNC9v0sCOUytUgrGGb/Maz61XS1IyZrNpCzVBmOn17XCsX3kO/huhc2ZSEui6smO3Xu8hxobvO5w4xqCMdqHVj4DTJwYk45QGhlKJ7n9OeD/dHOl1WYfxxK06Grxu7+X9JRZ0cUvXEexvFRdVRecCM2tWHa8pX0XdnUIXvtqrfqTE/onSIxMnlWNKor1d2isf2hKp4neQl22RVnbGxJbffdWYymV2g3dbE6wNb80LGgiAQfX2OQRhpmXX66DmBqd9jG7IVS4PTpGtaeKGfd9HcPQzBP4q6MOEsfrHaPQy26//idCzZ/BJk76KcK+bWLwgijzon0BC9+3YIzZk=
 
 
 # Sem Build Stages
