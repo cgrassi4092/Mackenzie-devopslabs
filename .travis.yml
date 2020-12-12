@@ -33,7 +33,7 @@ jobs:
           organization: cgrassi4092
           token: ${SONAR_TOKEN}
 
-    - stage: Deploy Stage 
+    - stage: Staging Deploy 
       script: skip
       # Definir o Deploy no Heroku
       deploy:
@@ -45,7 +45,12 @@ jobs:
         on: 
           branch: main
 
-    - stage: Deploy Prod
+    - stage: Staging Test
+      name: "Get na Pagina"
+      script: "curl https://devopslabs-carlos-stg.herokuapp.com/"
+
+
+    - stage: Production Deploy
       script: skip
       # Definir o Deploy no Heroku
       deploy:
@@ -56,6 +61,11 @@ jobs:
         app: devopslabs-carlos
         on:
           branch: main
+
+    - stage: Production Test
+      name: "Get na Pagina"
+      script: "curl https://devopslabs-carlos.herokuapp.com/" 
+
 
 notifications:
   slack:
